@@ -1,0 +1,41 @@
+.widget {
+    background: white;
+    border-radius: 2px;
+    margin-bottom: $l-size;
+    min-width: 30%;
+}
+.btn-wrapper {
+    display: flex;
+    flex-direction: row;
+}
+.btn-large {
+    background: $off-white;
+    color: $grey;
+    cursor: pointer;
+    font-size: 1.4rem;
+    padding: $s-size;
+    text-align: center;
+    width: 50%;
+    white-space: nowrap;
+
+    p {
+        margin: 0;
+    }
+
+    .number {
+        font-size: 3rem;
+        font-weight: bold;
+        margin-bottom: $xs-size;
+    }
+}
+.btn-link {
+    background: none;
+    border: none;
+    color: $dark-grey;
+    font-size: $s-size;
+    font-weight: bold;
+    padding: $s-size;
+    text-align: right;
+    width: 100%;
+    transition: all 0.2s ease-in-out; 
+}

@@ -1,0 +1,33 @@
+.questions {
+    .btn-active {
+        background: none;
+        color: $purple;
+    }
+    .btn-link:hover {
+        color: $purple;
+    }
+}
+.question-wrapper {
+    border-bottom: 0.5px solid $light-grey;
+    color: $grey;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    font-size: $s-size;
+    font-weight: bold;
+    margin: 0;
+    padding: $s-size $l-size;
+    transition: all 0.2s ease-in-out;
+
+    p {
+        margin: 0;
+    }
+
+    &:hover {
+        background: darken(white, 5%);
+        border-left: 0.3rem solid $purple;
+    }
+}
+.answers {
+    min-width: 20%;
+}

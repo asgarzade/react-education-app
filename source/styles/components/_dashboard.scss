@@ -1,0 +1,21 @@
+.dashboard {
+    flex-grow: 1;
+}
+
+//temporary
+.dashboard-header {
+    background: white;
+    border-bottom: 0.5px solid $light-grey;
+    font-size: $l-size;
+    height: 20rem;
+    padding-top: $l-size;
+    text-align: center;
+}
+
+.dashboard-content {
+    background: $off-white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: $l-size;
+}

@@ -1,0 +1,28 @@
+.side-nav {
+    background: $grey-blue;
+    height: 100%;
+}
+.side-nav-title {
+    background: $green;
+    color: white;
+    font-weight: 500;
+    margin: 0;
+    padding: $l-size $m-size;
+    text-align: center;
+    white-space: nowrap;
+    text-transform: uppercase;
+} 
+.side-nav-link {
+    color: $light-grey;
+    display: block;
+    margin: $m-size 0;
+    padding: $m-size 0;
+    text-align: center;
+    text-decoration: none;
+    transition: all 200ms ease-in-out;
+
+    &:hover, &.is-active {
+        background: darken($grey-blue, 10%);
+        color: white;
+    }
+}

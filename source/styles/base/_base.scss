@@ -1,0 +1,16 @@
+html {
+    font-size: 62.5%;
+}
+body {
+    background: linear-gradient(#5088C0, #B1C4D6);
+    background-repeat: no-repeat;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: $m-size;
+}
+button {
+    cursor: pointer;
+    outline: none;
+}
+button:disabled {
+    cursor: default;
+}
